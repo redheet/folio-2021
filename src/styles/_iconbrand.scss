@@ -1,0 +1,44 @@
+.skill-icon {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  .icon-holder {
+    margin-right: 1rem;
+    .icon {
+      font-size: 2.8rem;
+      color: #a4acc4;
+      transition: all 0.4s ease-in-out;
+    }
+    .fb:hover {
+      color: #3a5795;
+    }
+    .in:hover {
+      color: #0077b5;
+    }
+    .gh:hover {
+      color: #4078c0;
+    }
+    .tg:hover {
+      color: #0088cc;
+    }
+  }
+}
+
+.icons-list {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.text-icons {
+  margin-top: 20px;
+  font-size: 1.4em;
+}
+
+.other-skill {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  margin-top: 10px;
+}
